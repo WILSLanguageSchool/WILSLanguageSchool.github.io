@@ -1,0 +1,20 @@
+
+/**
+ * 숫자 to 콤마 처리
+ */
+function makeNumberToComma(currency, num) {
+    if (typeof(currency) !== 'undefined' && typeof(currency.numeralPatternPrice) !== 'undefined') {
+        num = numeral(num).format(currency.numeralPattern);
+    }
+    return num;
+}
+/**
+ * 콤마 to 숫자 처리
+ */
+function makeCommaToNumber (currency, num) {
+    if (typeof(currency) !== 'undefined' && typeof(currency.numeralPatternCalPrice) !== 'undefined') {
+        num = numeral(num).format(currency.numeralPatternCalPrice);
+        num = parseFloat(num);
+    }
+    return num;
+}

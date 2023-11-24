@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, minimum-scale=0, maximum-scale=10">
+
+		
+		<meta name="csrf-token" content="G9jsZOI3O88aL63Qs5fgDoZaoryHjNQwDVA8guVQ">
+		<meta property="og:type" content="website"/>
+		
+				<link rel="canonical" href="https://wils.co.kr/members/login">
+		<meta property="og:url" content="https://wils.co.kr/members/login"/>
+		
+			
+		
+		
+		<meta name="twitter:card" content="summary">
+
+		
+				<meta property="og:title" content="윌스어학원">
+		<meta name="twitter:title" content="윌스어학원">
+		<title>윌스어학원</title>
+		
+		
+		
+		
+		
+		
+										<meta name="google-site-verification" content="2d8TXd_pa1-lUU2afgwXv114KLrBSvUkVPIEh51cS8A" />
+				
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/css/lib.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Slick/slick.css" />
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Swiper/swiper.min.css" /><!-- Swiper js-->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Datepicker/css/datepicker.css" /><!-- datapicker -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Color-picker-huebee/css/huebee.css" /><!-- Color-picker-huebee -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Dropzone/css/dropzone.min.css" /><!-- Dropzone -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/css/animation.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/css/common.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/css/skin_common.css?v=20231114" />		
+
+				
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Fontawesome/css/froala.css"><!-- Froala 에 Font Awesome 서비스하기 위함 -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Fontawesome/css/all.min.css"><!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/vendors/Froala/css/froala_editor.pkgd.css" /><!-- Froala -->
+		<link rel="stylesheet" type="text/css" href="https://wils.co.kr/css/skin.css?v=20231114" />
+				
+
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_common.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_header.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_board.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_boardRecent.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_contents.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_form.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_image.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_layout.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_line.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_map.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_slide.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_text.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_video.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_gallery.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_table.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_footer.css?v=20231114" />
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_builderProductA.css?v=20231114" /><!-- 상품 디스플레이 -->
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_builderProductB.css?v=20231114" /><!-- 상품 문의 -->
+		<link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_builderProductC.css?v=20231114" /><!-- 상품 후기 -->
+
+		<link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu:wght@400;700&family=Gamja+Flower&family=Gugi&family=Hi+Melody&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&family=Nanum+Pen+Script&family=Poor+Story&family=Single+Day&family=Song+Myung&family=Stylish&family=Sunflower:wght@300;700&family=Yeon+Sung&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Archivo:wght@400;700&family=Exo:wght@200;400;700&family=Fauna+One&family=Fjalla+One&family=Graduate&family=Iceland&family=Inconsolata:wght@300;500;700&family=Italianno&family=Josefin+Sans:wght@200;400;700&family=Lato:wght@100;300;400;700&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@200;300;400;500;600;700&family=Nixie+One&family=Nunito:wght@200;400;700&family=Oswald:wght@200;400;500;700&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@200;400;700&family=Raleway:wght@200;400;700&family=Roboto:wght@100;300;400;500;700&family=Simonetta:wght@400;900&family=Space+Mono:wght@400;700&family=Special+Elite&family=Stardos+Stencil:wght@400;700&family=Titan+One&family=Titillium+Web:wght@200;400;700&family=Trocchi&family=Ultra&family=Wellfleet&family=Abril+Fatface&family=Bodoni+Moda:wght@400;600;800&family=DM+Serif+Display&family=DM+Serif+Text&family=EB+Garamond:wght@400;500&family=Open+Sans:wght@300;400;700&family=Petit+Formal+Script&family=Quicksand:wght@300;700&family=Cinzel&family=Lobster&family=MonteCarlo&family=Shrikhand&display=swap" rel="stylesheet" />
+
+
+
+		    
+
+		<script>
+		var LOGIN_TYPE = 'non-members';
+				
+		var PAGE_CODE = 'login';
+		var PAGE_MODE = 'real';
+
+					var HEADER_CONFIG = {"layout_type":"type1","header_module_name":"header_A010","header_module_parents":"header_A001","header_submenu_design":"design4","header_submenu_direction":"right","mypage_menu":"6","header_logo":"\/file\/1205871320","login_menu":"no","login_menu_name":"로그인","logout_menu_name":"로그아웃","join_menu_name":"회원가입","login_before_greeting":"WELCOME!","login_after_greeting":"님 환영합니다!","gnb_menu":"1","navigation_fontsize":"16","util_menu":"no","header_brightness":"light","header_bgcolor":"#fff","navigation_color":null,"navigation_color_default":"on","navigation_font":"Noto Sans KR","shopping_menuorder":null,"shopping_my":"no","shopping_cart":"no","shopping_search":"no","header_flying":"yes","page_code":"page_language_03","util_link":"[{\"name\":\"MYPAGE\",\"address\":\"\\\/members\\\/mypage\\\/info\",\"target\":\"_self\"},{\"name\":\"CS CENTER\",\"address\":\"#\",\"target\":\"_self\"},{\"name\":\"SITEMAP\",\"address\":\"#\",\"target\":\"_self\"}]"};
+							var FOOTER_CONFIG = {"footer_module_name":"footer_A010","footer_module_parents":"footer_A001","footer_textfield1":"no","footer_textfield1_source":null,"footer_textfield2":"no","footer_textfield2_source":null,"footer_menu":"no","fnb_menu":"2","footer_logo":"yes","footer_logo_src":"\/file\/956526715","footer_sns":"yes","footer_info":"yes","footer_copyright":"yes","footer_copyright_source":"<p>COPYRIGHT (c) WILS Language School ALL RIGHTS RESERVED.<\/p>","footer_escro":"no","footer_brightness":null,"footer_bgcolor2":null,"footer_fontcolor":null,"footer_fontcolor_default":"on","save_seq":"165","save_mode":"real","escro":"[{\"img_src\":\"\\\/file\\\/1617609085\",\"link_address\":\"#escro2\",\"link_target\":\"_blank\"}]"};
+							var BLOCK_LAYOUTS = '';
+							var BLOCK_CONTENTS = '';
+							var BASIC_CONFIG = {"site_name":"윌스어학원","co_name":"윌스어학원","ceo_name":"남은경","co_phone":"+82(0)2-2652-2884","co_email":"wilsabroad@gmail.com","co_zipcode":"08003","co_address":"서울 양천구 목동서로 250","co_address_detail":"풍성빌딩 4층","co_regist_num":"117-91-29905","co_it_num":null,"site_desc":null,"co_nation":"kr","co_fax":"+82(0)2-2652-2263","timezone":"Asia\/Seoul","date_format":"Y.m.d","currency":"krw","sns_img":null,"fav_img":null,"map_type":"direct","co_category":"","co_category_item":""};
+		
+					var MAP_CONFIG = {"map_type":"direct","map_service_type":"kakao","map_api":{"naver":{"client_id":null,"client_secret":null},"kakao":{"api_key":null},"google":{"api_key":null}},"map_feature":{"map_marker_icon":null,"map_zoom":null,"map_zoom_control":null},"map_script":{"KAKAO":"https:\/\/dapi.kakao.com\/v2\/maps\/sdk.js?libraries=services,clusterer,drawing&appkey=","NAVER":"https:\/\/oapi.map.naver.com\/openapi\/v3\/maps.js?submodules=geocoder&ncpClientId=","GOOGLE":"https:\/\/maps.googleapis.com\/maps\/api\/js?key="}};
+		
+		var PAGE_CONFIG = '';
+
+					var _PATH = "\/members\/login" ;
+		
+		var MODULES_STORAGE_BASE_URI = "https:\/\/storage.clickn.co.kr\/" ;
+
+		var jcv = '20231114';
+		
+		</script>
+	
+		<script src="https://wils.co.kr/lang/skin_js.js"></script>
+		<script src="https://wils.co.kr/lang/common.js?m=front&amp;g=common"></script>
+		<script src="https://wils.co.kr/vendors/Jquery/jquery.min.js"></script>
+		<script src="https://wils.co.kr/vendors/Twbs-pagination/jquery.twbsPagination.js"></script>
+		<script src="https://wils.co.kr/js/common.js?v=20231114"></script>
+
+		<script src="https://wils.co.kr/js/skin_ui_functions.js?v=20231114"></script> <!--우선 순위 높아야하는 UI Functions -->
+
+		<script>		
+		var USER = ""
+		const SITE_CONFIG_OPTION = {"rightClick":"N","mouseDrag":"N","mobileZoom":"Y"}
+		</script>
+
+			
+
+		
+					</head>
+	<body>	
+		<div id="skinLayoutWrap" class="skin_layout_wrap" data-layout-type="type1" data-header-hidden="no" data-footer-hidden="no" data-header-flying="yes" data-header-floating="no" data-header-util="no" data-header-selectmenu="no" data-header-login="no" data-header-bgcolor="#fff" data-header-brightness="light" data-header-utilcolor="" data-navigation-color="" data-navigation-font="Noto Sans KR" data-navigation-fontsize="16" data-gnb-seq="1" data-wow-use="no" data-wow-ani="fadeInRight" data-shopping-my="no" data-shopping-cart="no" data-shopping-search="no" data-shopping-menuorder="my-cart-search" data-mypage-menu="6">
+			<div id="pageConfigHeader" class="skin_layout_container skin_layout_container1">
+				<!-- ===================== Skin Header ===================== -->
+				<div id="skinHeaderSection" class="front_header_section">
+
+					<div class='header_module __headerModule' data-module-name="header_A010" data-module-parents="header_A001" data-submenu-design="design4" data-submenu-direction="right"><!-- 헤더 모듈 -->
+						<div class='module_wrap'>
+							<div class='module_container'>
+								<div class="logo_area"><p><a href="/"><b><img id="headerLogo" src="/file/1205871320" alt="" onerror="this.src='https://storage.clickn.co.kr//images/module_contents/logo_clickn.png';" /></b></a></p></div>
+								<div id="gnbUtilArea" class="gnb_area">
+									<!-- 쇼핑몰 UTIL 영역 -->
+									<div class="util_area">
+										<div class='module_wrap'>
+											<div class='module_container'>
+												<!-- 상단 셀렉트 메뉴( 다국어 사이트나 패밀리 사이트로 활용 가능 ) -->
+												<!--
+												<div class="select_link_area">
+													<div class="selectLinkMenu select_link_menu">
+														<a class="defaule_text" href="#none"></a>
+														<ul class="link_menu_list">
+														</ul>
+													</div>
+												</div>
+												-->
+												<!-- 로그인 -->
+												<ul class="login_section">
+													<li class="greeting" style="font-family:Noto Sans KR">
+														<span class="before" style=""></span>
+														<span class="after" style="display:none;"></span>
+													</li>
+													<li class="logout" style="display:none;"><a href="javascript:logout()" style="font-family:Noto Sans KR">로그아웃</a></li>
+													<li class="login" style=""><a href="/members/login" style="font-family:Noto Sans KR">로그인</a></li>
+													<li class="join" style=""><a href="/members/join" style="font-family:Noto Sans KR">회원가입</a></li>
+												</ul>
+												<!-- 쇼핑몰 유틸메뉴( 다른 링크로도 활용 가능 ) -->
+												<ul class="util_menu_list" style="font-family:Noto Sans KR">
+												</ul>
+
+												<!-- [커머스] 장바구니, 검색 -->
+												<ul class="shopping_menu" style="font-family:Noto Sans KR">
+													<li class="shopping_my" data-menu-order="my">
+														<a class="my_icon" href="/mypages" title="마이페이지"></a>
+													</li>
+													<li class="shopping_cart" data-menu-order="cart">
+														<a class="cart_icon" href="/cart" title="장바구니"><span id="cartNum" class="cart_num">0</span></a>
+													</li>
+													<li class="shopping_search" data-menu-order="search">
+														<a href="javascript:void(0)" class="btn_search_open" title="상품 검색">검색창 열기</a>
+														<div class="search_layer">
+															<label class="search_box"><input type="text" name="search_input_text" class="search_input_text" autocomplete="off" placeholder="상품 검색" /></label>
+															<button type="button" class="btn_search_header">검색</button>
+															<button type="button" class="btn_search_close">닫기</button>
+														</div>
+													</li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Aside open button( 햄거버 ) -->
+								<div class="hambuger_area">
+									<a id="asideOpenrBtn" href="#none"><strong>Aside open</strong></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<script>//headerFlyingStand(); // 요 스크립트 위치 변경 금지!</script>
+				<!-- ===================== // Skin Header ===================== -->
+			</div>
+			<div class="skin_layout_container skin_layout_container2" style="display: none;">
+				<div class="front_main_area">
+					<div id="skinMainWrap" class="skin_main_wrap">
+						<div class="skin_main_container skin_main_container1">
+							<!-- ===================== Skin Main ===================== -->
+							<div id="skinMainSection" class="skin_main_section">
+								            <div class="skin_block" id="startingBlock" data-module-id="module-1" data-module-type="normal" data-is-empty="no">
+    <div class="normal_module" data-module-name="text_A001" data-content-type1="text" data-content-type2="text-type-A" data-background-color="" data-background-image="" data-background-position="" data-background-repeat="" data-background-size="" data-background-attachment="" data-background-filter="" data-background-image-options="">
+        <div class="module_wrap" data-layout-fullsize="no">
+            <div class="module_container" data-padding-top="100" data-padding-bottom="40">
+                <div class="title" data-text-editable="true" style="font-family: Montserrat, 'Noto Sans KR'; font-size:32px; color:#000; font-weight:500;">
+                    <p style="text-align:center;">로그인</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="skin_block" data-module-id="module-login" data-module-type="special" data-is-empty="no">
+    <div class="special_module" data-module-name="login_A001" data-module-parents="login_A001" data-content-type1="member" data-content-type2="login" data-background-color="" data-background-image="" data-background-image-options="" data-background-attachment="" data-background-filter="">
+        <div class="module_wrap" data-layout-fullsize="no">
+            <div class="module_container" data-padding-top="0" data-padding-bottom="100">
+                <form id="login-form" class="radio_checkbox_type2">
+    <input type="hidden" name="return_url" value="https://wils.co.kr/" />
+    <input type="hidden" class="__certifiedRequired" name="certified_required" value="" />
+        <div class="member_wrap">
+        <ul class="login_form form_contents">
+            <li class="form_type_input">
+                <ul class="form_section">
+                    <li class="form_items">
+                        <input type="text" name="member_id" placeholder="아이디 또는 이메일" value="" autofocus >
+                    </li>
+                </ul>
+            </li>
+            <li class="form_type_pass">
+                <ul class="form_section">
+                    <li class="form_items">
+                        <input type="password" name="member_pw" placeholder="비밀번호" >
+                    </li>
+                </ul>
+            </li>
+            <li class="form_type_checkbox">
+                <ul class="form_section">
+                    <li class="form_items">
+                        <div>
+                            <label><input type="checkbox" name="memorizing_login_id" value="1" ><em>아이디 저장</em></label>
+                        </div>
+                    </li>
+                </ul>
+                <div class="text_menu member_nav">
+                    <ul>
+                        <li><a href="/members/forget/id">아이디 찾기</a></li>
+                        <li><a href="/members/forget/pw">비밀번호 찾기</a></li>
+                        <li><a href="/members/join">회원가입</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="form_type_submit">
+                <ul class="form_section">
+                    <li class="form_items">
+                        <button type="submit" class="btn_resp size_d color2 form_send">로그인</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        
+            </div>
+</form>
+
+<input class="__certifiedInputPhone Hide" type="hidden" name="member_phone" value=""/>
+<!-- 인증 버튼 시작 -->
+
+<span class="__certifiedLayerOpenCert">
+    <button type="button" class="btn_resp __certifiedBtnOpenCert Hide">
+        <span class="__certifiedOwnerCertTextStatusOpen">인증</span>
+    </button>
+</span>
+
+
+<!-- 인증 영역 시작 -->
+<div class="Hide">
+    
+    </div>
+<div class="__certifiedPopup resp_layer_pop st2 certified_layer" style="display:none;">
+    <h4 class="title mb0"><b class="__certifiedPopupTitle">휴대전화 변경</b></h4>
+    <div class="layer_body">
+        <li class="pilsu __certifiedLayerPhone form_type_phone_auth">
+            <ul class="form_section">
+                <li class="form_texts">
+                    <div class="form_title">
+                        <h4>휴대전화<i class="fa"></i></h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex">                        
+                        <input type="text" name="certified_member_phone" value=""
+                            placeholder="- 없이 숫자만 입력" data-required="true" class="fill ">
+
+                        <!-- 인증 버튼 시작 -->
+                        <span class="Hide __certifiedLayerBtnCert"></span>
+                    </div>
+
+                     <!-- 인증 버튼 종료 -->
+                     <p class="form_msg __certifiedPopupDesc"> 휴대전화 번호를 확인하신 후 인증 버튼을 클릭해주세요.</p>
+
+                    <!-- 점유인증 영역 시작 -->
+                    <div class="Hide __certifiedLayerCode" >
+                    </div>
+                    <!-- 점유인증 영역 종료 -->
+                    <p class="form_msg warn"><span></span></p>
+                </li>
+            </ul>
+            <div class="__certifiedOwnerCertOrgLayerCode">
+
+            </div>
+        </li>
+    </div>
+    <div class="layer_bottom_btn_area">        
+        <button type="button" class="btn_resp __certifiedOwnerCertBtnChecked color2 round" disabled>확인</button>         
+    </div>
+    <a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer();"></a>
+</div>
+
+<!-- 인증 영역 종료 -->            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/special_common.css?v=20231114">
+    <link rel="stylesheet" type="text/css" href="https://storage.clickn.co.kr//css/modules/module_member.css?v=20231114">
+</div>
+    							</div>
+							<!-- ===================== // Skin Main ===================== -->
+						</div>
+						<div id="pageConfigFooter" class="skin_main_container skin_main_container2">
+							<!-- ===================== Skin Footer ===================== -->
+							<div id="skinFooterSection" class="skin_footer_section" data-footer-logo="yes" data-footer-menu="no" data-footer-sns="yes" data-footer-info="yes" data-footer-hosting="yes" data-footer-coregistlink="no" data-footer-escro="no" data-footer-copyright="yes" data-footer-textfield1="no" data-footer-textfield2="no" data-fnb-seq="2" data-footer-bgcolor2="" data-footer-brightness="" data-footer-fontcolor="" data-footer-fontfamily="">
+								<div class='footer_module' data-module-name="footer_A010" data-module-parents="footer_A001" style="display:none;">
+									<div class='module_wrap'>
+										<div class='module_container'>
+											<div class="footer_section logo_area">
+												<a href="/"><b><img id="footerLogo" src="https://storage.clickn.co.kr//images/module_contents/logo_clickn.png" alt="" onerror="this.src='https://storage.clickn.co.kr//images/module_contents/logo_blank.png';" /></b></a>
+											</div>
+											<div class="footer_section fnb_area">
+												<!-- FNB 햄버거
+												<div class="fnb_open_area" id="fnbOpenrBtn">
+													<span class="fnb_open_btn"><strong>Footer Menu Open</strong></span>
+												</div> -->
+
+												<div class="fnb_container">
+												</div>
+											</div>
+											<ul id="footerCompanyInfo" class="footer_section mall_info">
+												<!-- 데이터 연동으로 변경 - 210128 -->
+											</ul>
+											<div class="footer_section text_field text_field1"><div data-text-editable="true"><p><span style="font-size:15px; font-weight:500;">고객센터</span></p><p><br></p><p>경기도 성남시 분당구 대왕판교로 670</p><p>유스페이스 B동 322, 323호 / A동 403호</p><p>clickn@gabiacns.com</p></div></div>
+											<div class="footer_section text_field text_field2"><div data-text-editable="true"><p><span style="font-size:15px; font-weight:500;">ACCOUNT INFO</span></p><p><br></p><p>국민은행</p><p>00000-00-000000</p><p>(주)CLICKN</p></div></div>
+											<div class="footer_section sns_list">
+												<ul class="snsLinks">
+												</ul>
+											</div>
+											<div class="footer_section escro_area">
+												<ul>
+													<li><a href="#escro1"><img src="https://storage.clickn.co.kr//images/module_contents/hf_escro_01.png" alt="" /></a></li>
+													<li><a href="#escro2"><img src="https://storage.clickn.co.kr//images/module_contents/hf_escro_02.png" alt="" /></a></li>
+												</ul>
+											</div>
+											<div class="footer_section copyright" data-text-editable='true'><p>COPYRIGHT (c) (주)회사명 ALL RIGHTS RESERVED.</p></div>
+										</div>
+									</div>
+								</div>
+															</div>
+							<!-- ===================== // Skin Main ===================== -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 상/하단 바로가기 버튼 -->
+		<div id="btnBott" class="btn_bott_group">
+			<a href="#skinLayoutWrap" class="btn_top"><span class="screenout">TOP</span></a>
+			<a href="#skinFooterSection" class="btn_bott"><span class="screenout">BOTTOM</span></a>
+		</div>
+
+		<!-- 어사이드 닫기 버튼 -->
+		<a href="#none" id="asideCloseBtn" class="aside_close">Aside close</a>
+
+		<!-- 비밀글 보기 Layer -->
+		<div id="secretContentsPopup" class="resp_layer_pop small" style="display:none;">
+			<h4 class="title"><b>비밀번호 확인</b></h4>
+			<form onsubmit="return false"><!-- form 위치 -->
+				<div class="y_scroll_auto">
+					<div class="layer_pop_contents" style="text-align:center;">
+						<p>
+							비밀번호를 입력해야 게시글을 확인할 수 있습니다.<br />
+							게시글 등록 시 입력했던 비밀번호를 입력해주세요.<br />
+						</p>
+						<p class="Mt30">
+							<input type="password" name="secret_pw_input" placeholder="비밀번호 입력" class="input_style1" style="width:200px;" />
+						</p>
+					</div>
+				</div>
+				<div class="layer_bottom_btn_area">
+					<ul class="basic_btn_area">
+						<li><button type="button" class="btn_resp layer_btm_style style1" onclick="hideCenterLayer();">취소</button></li>
+						<li><button type="button" id="btnSecretPwConfirm" class="btn_resp layer_btm_style style2">확인</button></li>
+					</ul>
+				</div>
+			</form>
+			<a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer();"></a>
+		</div>
+
+		<!-- 모달 -->
+		<div id="skinModal" class="modal_bg"></div>
+
+		<!-- 캡차 -- skin_render_forms.js -- 489라인 .load('url') 방식으로 변경 - 210514 -->
+
+
+		<!-- 팝업모듈 -->
+		<div id="popup_module_modal" class="modal_bg"></div>
+		<div id="popupArea">
+							<div id="popupArea_any"></div>
+		</div>
+
+		<!-- 갤러리 보기 Layer -->
+		<div id="galleryViewPopup" class="gallery_view_popup" data-gallery-id="" data-gallery-seq="" style="display:none;">
+			<h4 class="title">
+				<b><span class="gallery_name">테스트</span></b>
+			</h4>
+			<div class="gallery_view_wrap">
+				<div class="gallery_view_container">
+					<div class="gallery_image_area">
+					</div>
+				</div>
+				<a href="#none" class="arrow_btn" data-direction="prev" title="Prev"></a>
+				<a href="#none" class="arrow_btn" data-direction="next" title="Next"></a>
+			</div>
+			<div class="seq_area"><p class="num" style="font-size:22px;"><span class="current" style="font-size:24px;"></span> / <span class="last"></span></p></div>
+			<a href="#none" class="btn_pop_close"></a>
+		</div>
+
+		<div class="resp_layer_pop small agree-pop-layer" id="daumPostWrapElement" data-key="daum_post" style="display:none;">
+			<h4 class="title"><b>주소검색</b></h4>
+			<form onsubmit="return false"><!-- form 위치 -->
+				<div class="y_scroll_auto">
+					<div class="layer_pop_contents" id="daum_post_element">
+						<p>
+							<pre class="match_typing detailContents"></pre>
+						</p>
+					</div>
+				</div>
+				<div class="layer_bottom_btn_area">
+					<ul class="basic_btn_area">
+						<li><button type="button" class="btn_resp layer_btm_style style2"  onclick="hideCenterLayer();">닫기</button></li>
+					</ul>
+				</div>
+			</form>
+			<a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer();"></a>
+		</div>
+
+		<!-- ===================== 하단 스크립트 ===================== -->
+		<script src="https://wils.co.kr/vendors/Slick/slick.min.js"></script>
+		<script src="https://wils.co.kr/vendors/Swiper/swiper.min.js"></script><!-- Swiper js-->
+		<script src="https://wils.co.kr/vendors/Froala/js/froala_editor.pkgd.min.js"></script>
+		<script src="https://wils.co.kr/vendors/Froala/js/languages/ko.js"></script>
+		<script src="https://wils.co.kr/vendors/Fontawesome/font_awesome.min.js"></script>
+		<script src="https://wils.co.kr/vendors/Wow/wow.min.js"></script><!-- Wow.js -->
+		<script src="https://wils.co.kr/vendors/Datepicker/js/datepicker.min.js"></script><!-- datapicker -->
+		<script src="https://wils.co.kr/vendors/Datepicker/lang/datepicker.lang.js"></script><!-- datapicker language -->
+		<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script><!-- 카카오 우편번호 API -->
+
+		<!-- 지도 API -->
+		
+		<!-- 주소 변환 -->
+		<script src="https://wils.co.kr/js/postcode.js?v=20231114"></script>
+		<script src="https://wils.co.kr/vendors/Dropzone/js/dropzone.min.js"></script>
+		<script src="https://wils.co.kr/vendors/Masonry/js/masonry.pkgd.min.js"></script>
+		<script src="https://wils.co.kr/js/design_loader.js?v=20231114"></script>
+		<script src="https://storage.clickn.co.kr//js/modules/modules_ui.js?v=20231114"></script>
+
+		<script src="/modules/js?m=members&js=login&v=20231114"></script>
+		        
+
+    <script src="https://wils.co.kr/lang/all.js?m=front&amp;g=members"></script>
+    <script>
+    // 인증 컴포넌트 호출
+    async function createCertified() {	
+        // 인증 컴포넌트 옵션
+        let urls = JSON.parse('{"owner_cert":{"send":"https:\/\/wils.co.kr\/members\/phone_auth\/send","check":"https:\/\/wils.co.kr\/members\/phone_auth\/check"},"sms_kcp":{"view":"https:\/\/wils.co.kr\/certifieds\/sms-kcp\/req?certified_type=member&certified_use=login&certified_key=0","callback":"https:\/\/wils.co.kr\/certifieds\/sms-kcp\/res"}}');
+        
+        //인증 구분(회원)
+        let certified_type = 'member';
+
+        //인증목적
+        let certified_use = 'login';
+        
+        //인증목적
+        let certified_required = '';
+
+        let certified_result = '';
+
+        let objValues = {
+            'member_id': $("input[name='member_id']"), 
+            'member_name': $("input[name='member_name']"), 
+            'member_phone': $("input[name='certified_member_phone']"), 
+        };
+        let certifiedSelecter = {
+            'certified_layer_phone': '__certifiedLayerPhone',
+            'certified_input_phone': '__certifiedInputPhone',
+            'certified_layer_btn_cert': '__certifiedLayerBtnCert',
+            'certified_layer_code': '__certifiedLayerCode',
+            'certified_layer_open_cert' : '__certifiedLayerOpenCert',
+            'certified_btn_open_cert' : '__certifiedBtnOpenCert',
+        };
+        let certifiedReplaceClass = JSON.parse('{"init":{"__certifiedLayerPhone":{"none":"form_type_phone","owner_cert":"form_type_phone_auth","sms_kcp":"form_type_phone_auth"}}}');
+        let certifiedCallback = certifiedCallbackFunction;
+
+        let opt = {
+            'certified_type' : certified_type,
+            'certified_use' : certified_use,
+            'certified_required' : certified_required,
+            'certified_result' : certified_result,
+            'urls': urls,
+            'obj_values': objValues,
+            'selecter': certifiedSelecter,
+            'replace_class': certifiedReplaceClass,
+            'callback_function': certifiedCallback,
+        };
+        const Certified = await import('/js/certifieds/certified.js'); 
+        const certified = new Certified.Certified(opt);
+        return certified;
+    }
+    var CERTIFIED = null;
+    $(document).ready(function () {
+        // 인증 컴포넌트 호출
+        CERTIFIED = createCertified();
+    });
+    </script>
+
+<script src="https://wils.co.kr/js/Libraries/TimeLimitor.class.js?v=20231114"></script>
+		
+		
+		<footer>
+		
+						</footer>
+	</body>
+</html>
